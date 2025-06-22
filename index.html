@@ -26,6 +26,7 @@
       <a-assets>
         <a-asset-item id="cake" src="Cake.glb"></a-asset-item>
         <a-asset-item id="balloon" src="Balloon.glb"></a-asset-item>
+        <audio id="music" src="song.mp3"></audio>
       </a-assets>
 
       <!-- AR Marker -->
@@ -56,6 +57,8 @@
                 animation="property: color; from: #00BFFF; to: #FF69B4; dir: alternate; dur: 2000; loop: true"
                 align="center" scale="1.2 1.2 1.2">
         </a-text>
+
+        <a-sound src="#music" autoplay="true" loop="true"></a-sound>
 
       </a-marker>
 
